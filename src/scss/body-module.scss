@@ -1,0 +1,9 @@
+// Body Module Variables
+$background-color: #1a1a1a;
+$text-color: #e6e6e6;
+
+/* Body Module Styles */
+p {
+    background: $background-color;
+    color: $text-color;
+}
