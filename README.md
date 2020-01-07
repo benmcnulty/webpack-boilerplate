@@ -1,5 +1,6 @@
 # webpack-boilerplate
-## Boilerplate for HTML, SASS, and ES6 Webpack Projects
+## Webpack Boilerplate for HTML, CSS, and JavaScript Projects
+### Build with Lodash, Sass, and ES6
 ---
 
 Clone this boilerplate for a default modern developer environment.
