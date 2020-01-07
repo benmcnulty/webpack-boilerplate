@@ -11,9 +11,11 @@ module.exports = {
     },
     stats: 'errors-only',
     devServer: {
-        contentBase: './dist',
+        contentBase: ['./src', './dist'],
         open: true,
-        hot: true,
+        liveReload: true,
+        inline: true,
+        hot: false,
     },
     module: {
         rules: [

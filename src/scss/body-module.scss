@@ -1,9 +1,23 @@
 // Body Module Variables
 $background-color: #1a1a1a;
+$alt-color: #11aa11;
 $text-color: #e6e6e6;
 
 /* Body Module Styles */
-p {
+.module-block {
     background: $background-color;
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 0.25rem solid $alt-color;
+    cursor: pointer;
+}
+
+.module-block:hover {
+    background: $alt-color;
+    border: 0.25rem solid $background-color;
+}
+
+.module-element {
     color: $text-color;
 }
