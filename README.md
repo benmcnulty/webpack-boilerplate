@@ -29,6 +29,7 @@ Clone this boilerplate for a default modern developer environment.
 ### Build Notes
 * Development Environment clears [dist folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/dist/) and serves bundle from memory with live-reloading.
 * Production Preview builds to [dist folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/dist/) and serves a transpiled, concatenated, minified bundle.
+* View Default Output: [gh-pages](https://benmcnulty.github.io/webpack-boilerplate/)
 
 ### NPM Scripts
 #### Install Node Packages
