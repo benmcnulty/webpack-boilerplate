@@ -1,5 +1,5 @@
-import './scss/style.scss';
-import moduleSection from './js/body-module.js';
+import '../css/style.scss';
+import moduleSection from '../js/body-module.mjs';
 
 const defaultModuleSection = moduleSection();
 const dynamicModuleSection = moduleSection("Dynamic ES6 Module");

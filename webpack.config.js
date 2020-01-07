@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/js/index.js',
     output: {
         filename: './js/[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
@@ -50,7 +50,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: "Webpack Boilerplate",
             template: './src/html/index.inc',
-            description: "Boilerplate for HTML, SASS, and ES6 Webpack Projects",
+            description: "Boilerplate for HTML, CSS, and JS Projects built with Lodash, Sass, and ES6",
             color: "#c0c0c0",
         }),
         new MiniCssExtractPlugin({

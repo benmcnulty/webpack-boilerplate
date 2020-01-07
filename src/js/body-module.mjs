@@ -1,4 +1,4 @@
-import '../scss/body-module.scss';
+import '../css/body-module.scss';
 export default (text = "Default ES6 Module") => {
     const moduleSection = document.createElement("section");
     const textBox = document.createElement("p");

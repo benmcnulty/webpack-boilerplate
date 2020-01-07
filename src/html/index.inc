@@ -12,6 +12,7 @@
     <p>You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
     <h1>Webpack Boilerplate</h1>
-    <h2>Use for HTML, SASS, and ES6 Projects</h2>
+    <h2>Use for HTML, CSS, and JS Projects</h2>
+    <h3>Build with Lodash, Sass, and ES6</h3>
 </body>
 </html>
