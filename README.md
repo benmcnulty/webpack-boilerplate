@@ -5,7 +5,8 @@
 Clone this boilerplate for a default modern developer environment.
 
 ### Basic Use
-* Run NPM Scripts on command line in cloned directory to Install Node Packages and Start Developer Environment: `npm install && npm start`
+* Run NPM Scripts on command line in cloned directory to Install Node Packages and Start Developer Environment:
+`npm install && npm start`
 * Add HTML5 Elements directly to [index.inc](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/html/index.inc) and/or include Lodash Templating
 * Add CSS3 Styles directly to [style.scss](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/css/style.scss) and/or include Sassy CSS
 * Add JavaScript directly to [index.js](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/js/index.js) and/or include ES6 Modules
