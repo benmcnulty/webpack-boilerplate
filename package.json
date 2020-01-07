@@ -1,7 +1,7 @@
 {
   "name": "webpack-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate for HTML, SASS, and ES6 Webpack Projects",
+  "description": "Webpack Boilerplate for HTML, CSS, and JavaScript Projects",
   "main": "src/index.js",
   "scripts": {
     "lint": "jshint ./src/index.js --show-non-errors",
