@@ -6,7 +6,11 @@
   "scripts": {
     "lint": "jshint ./src/js/ --show-non-errors --extra-ext .mjs",
     "test": "npm run lint",
-    "ghpages": "git subtree push --prefix dist origin gh-pages",
+    "ghpages:remote": "git push -d origin gh-pages",
+    "ghpages:local": "git branch -d gh-pages",
+    "ghpages:remove": "npm run ghpages:remote && npm run ghpages:local",
+    "ghpages:reset": "git subtree push --prefix dist origin gh-pages",
+    "ghpages": "npm run ghpages:remove && npm run ghpages:reset",
     "build:dev": "webpack --mode development",
     "build:prod": "webpack --mode production",
     "serve:dev": "webpack-dev-server --mode development",
