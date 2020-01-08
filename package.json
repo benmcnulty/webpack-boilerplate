@@ -40,7 +40,7 @@
     "javascript"
   ],
   "author": "Ben McNulty",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/benmcnulty/webpack-boilerplate/issues"
   },
