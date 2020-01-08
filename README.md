@@ -30,8 +30,8 @@ npm install && npm start
 * Linting with JSHint
 
 ### Build Notes
-* Development Environment clears [dist folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/dist/) and serves bundle from memory with live-reloading.
-* Production Preview builds to [dist folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/dist/) and serves a transpiled, concatenated, minified bundle.
+* Development Environment clears [docs folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/docs/) and serves bundle from memory with live-reloading.
+* Production Preview builds to [docs folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/docs/) and serves a transpiled, concatenated, minified bundle.
 * View Default Output: [gh-pages](https://benmcnulty.github.io/webpack-boilerplate/)
 
 ### NPM Scripts

@@ -7,11 +7,11 @@ module.exports = {
     entry: './src/js/index.js',
     output: {
         filename: './js/[name].bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'docs')
     },
     stats: 'errors-only',
     devServer: {
-        contentBase: ['./src', './dist'],
+        contentBase: ['./src', './docs'],
         open: true,
         liveReload: true,
         inline: true,

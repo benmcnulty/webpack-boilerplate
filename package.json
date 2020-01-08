@@ -6,14 +6,10 @@
   "scripts": {
     "lint": "jshint ./src/js/ --show-non-errors --extra-ext .mjs",
     "test": "npm run lint",
-    "ghpages:remote": "git push -d origin gh-pages",
-    "ghpages:local": "git branch -d gh-pages",
-    "ghpages:remove": "npm run ghpages:remote && npm run ghpages:local",
-    "ghpages:reset": "git subtree push --prefix dist origin gh-pages",
-    "build:dev": "webpack --mode development",
+    "build:dev": "webpack --progress --mode development",
     "build:prod": "webpack --mode production",
     "serve:dev": "webpack-dev-server --mode development",
-    "serve:prod": "http-server -o /dist/ --silent",
+    "serve:prod": "http-server -o /docs/ --silent",
     "start:dev": "npm run build:dev && npm run serve:dev",
     "start:prod": "npm run build:prod && npm run serve:prod",
     "start": "npm run start:dev --silent"
@@ -34,10 +30,11 @@
   "keywords": [
     "webpack",
     "html",
-    "sass",
+    "lodash",
     "css",
-    "es6",
-    "javascript"
+    "sass",
+    "javascript",
+    "es6"
   ],
   "author": "Ben McNulty",
   "license": "MIT",
