@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "jshint ./src/js/ --show-non-errors --extra-ext .mjs",
     "test": "npm run lint",
+    "ghpages": "git subtree push --prefix dist origin gh-pages",
     "build:dev": "webpack --mode development",
     "build:prod": "webpack --mode production",
     "serve:dev": "webpack-dev-server --mode development",
