@@ -3,13 +3,21 @@
 ### Build with Lodash, Sass, and ES6
 ---
 
-Clone this boilerplate for a default modern developer environment.
+Clone this repository for a default modern web development environment.
 
-### Basic Use
-* Run NPM Scripts on command line in cloned directory to Install Node Packages and Start Developer Environment:
+This template includes preconfigured tooling to reduce friction when starting a frontend project.
+
+Working understandings of Git, CLI, Node, HTML, CSS, and JavaScript are required,
+NPM, Webpack, Lodash, Sass, and ES6 are recommended.
+
+### General Use
+1. Use this repository as a template for creating a new repository.
+2. Clone the new repository to a local development folder.
+3. Run NPM Scripts from command line in cloned folder to *Install* Node Packages and *Start* Development Environment:
 ```sh
 npm install && npm start
 ```
+
 * Add HTML5 Elements directly to [index.inc](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/html/index.inc) and/or include Lodash Templating
 * Add CSS3 Styles directly to [style.scss](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/css/style.scss) and/or include Sassy CSS
 * Add JavaScript directly to [index.js](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/js/index.js) and/or include ES6 Modules
@@ -30,9 +38,9 @@ npm install && npm start
 * Linting with JSHint
 
 ### Build Notes
-* Development Environment clears [docs folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/docs/) and serves bundle from memory with live-reloading.
-* Production Preview builds to [docs folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/docs/) and serves a transpiled, concatenated, minified bundle.
-* View Default Output: [gh-pages](https://benmcnulty.github.io/webpack-boilerplate/)
+* Development environment clears [docs folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/docs/) and serves bundle from memory with live-reloading.
+* Production builds to [docs folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/docs/) and locally serves a transpiled, concatenated, minified bundle.
+* Latest production build is public on GitHub Pages: [gh-pages](https://benmcnulty.github.io/webpack-boilerplate/)
 
 ### NPM Scripts
 #### Install Node Packages
