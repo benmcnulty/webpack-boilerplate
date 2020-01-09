@@ -53,9 +53,9 @@ npm install && npm start
 * Linting with JSHint
   
 ### Build Notes
-* Development environment clears [docs folder](/docs/) and serves bundle from memory with live-reloading.
-* Production builds to [docs folder](/docs/) for publishing to GitHub Pages and locally serves a transpiled, concatenated, minified bundle.
-* Default production build is public on GitHub Pages: [gh-pages](https://benmcnulty.github.io/webpack-boilerplate/)
+* Development environment clears [docs](/docs/) folder and serves bundle from memory with live-reloading.
+* Production builds to [docs](/docs/) folder for publishing to GitHub Pages and locally serves a transpiled, concatenated, minified bundle.
+* Default production build is public on GitHub Pages: [Webpack Boilerplate](https://benmcnulty.github.io/webpack-boilerplate/)
   
 ### NPM Scripts
 #### Install Node Packages
