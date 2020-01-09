@@ -16,7 +16,7 @@ You can use this boilerplate to write HTML ([index.inc](/src/html/index.inc)), C
   
 Nevertheless, those higher level concepts and tools enable us to write reusable code that works across most browsers with less effort; you will want to level up to using them sooner than later. When you feel ready, this boilerplate was built to assist in that process as well.  
   
-*The file extension .inc denotes a file with HTML markup that is not a complete .html document. The file extension .scss can handle plain CSS right alongside the Sassy stuff. Some JavaScript files use the .mjs extension to indicate they are ES6 modules. Generic HTML, CSS, and JavaScript will work in their respective files.*
+*The file extension .inc denotes a file with HTML markup that is not a complete .html document. The file extension .scss handles plain CSS right alongside the Sassy stuff. Some JavaScript files use the .mjs extension to indicate they are ES6 modules. Generic HTML, CSS, and JavaScript will work in their respective files.*
   
 Feel free to reach out on Twitter if you have questions, are struggling, or just want to chat with someone who also thinks in code. I'm happy to know this template is in use and even happier to help you use it.  
   
