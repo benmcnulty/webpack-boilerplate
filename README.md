@@ -12,7 +12,7 @@ NPM, Webpack, Lodash, Sass, and ES6 are recommended.
 **Attention Junior Developers**  
 Don't worry about understanding everything about each of the tools in use here, 
 that knowledge will be gained through experience. 
-You can use this boilerplate to write HTML ([index.inc](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/html/index.inc)), CSS ([style.scss](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/css/style.scss)), and JavaScript ([index.js](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/js/index.js)) without getting overwhelmed with the details of templating, preprocessing, or modules.  
+You can use this boilerplate to write HTML ([index.inc](/src/html/index.inc)), CSS ([style.scss](/src/css/style.scss)), and JavaScript ([index.js](/src/js/index.js)) without getting overwhelmed with the details of templating, preprocessing, or modules.  
   
 Nevertheless, those higher level concepts and tools enable us to write reusable code that works across most browsers with less effort; you will want to level up to using them sooner than later. When you feel ready, this boilerplate was built to assist in that process as well.  
   
@@ -33,29 +33,29 @@ npm install && npm start
 ```
   
 ### General Use
-* Add HTML5 Elements directly to [index.inc](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/html/index.inc) and/or include Lodash Templating
-* Add CSS3 Styles directly to [style.scss](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/css/style.scss) and/or include Sassy CSS
-* Add JavaScript directly to [index.js](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/js/index.js) and/or include ES6 Modules
+* Add HTML5 Elements directly to [index.inc](/src/html/index.inc) and/or include Lodash Templating
+* Add CSS3 Styles directly to [style.scss](/src/css/style.scss) and/or include Sassy CSS
+* Add JavaScript directly to [index.js](/src/js/index.js) and/or include ES6 Modules
   
 ### Modular Use
-* Example ES6 Module: [body-module.mjs](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/js/body-module.mjs)
-* Example Sass Module imported in ES6 Module: [body-module.scss](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/css/body-module.scss)
+* Example ES6 Module: [body-module.mjs](/src/js/body-module.mjs)
+* Example Sass Module imported in ES6 Module: [body-module.scss](/src/css/body-module.scss)
   
 ### Current Build Tooling
-* NPM Scripts Build Processes: [package.json](https://github.com/benmcnulty/webpack-boilerplate/blob/master/package.json)
-* Webpack Dev Environment & Bundler: [webpack.config.js](https://github.com/benmcnulty/webpack-boilerplate/blob/master/webpack.config.js)
-* HTML from Lodash Template: [index.inc](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/html/index.inc)
-* CSS from Sass Stylesheet: [style.scss](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/css/style.scss)
-* JavaScript from Webpack Bundle: [index.js](https://github.com/benmcnulty/webpack-boilerplate/blob/master/src/js/index.js)
+* NPM Scripts Build Processes: [package.json](/package.json)
+* Webpack Dev Environment & Bundler: [webpack.config.js](/webpack.config.js)
+* HTML from Lodash Template: [index.inc](/src/html/index.inc)
+* CSS from Sass Stylesheet: [style.scss](/src/css/style.scss)
+* JavaScript from Webpack Bundle: [index.js](/src/js/index.js)
   
 ### Additional Tooling
 * Transpiling with Babel
 * Linting with JSHint
   
 ### Build Notes
-* Development environment clears [docs folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/docs/) and serves bundle from memory with live-reloading.
-* Production builds to [docs folder](https://github.com/benmcnulty/webpack-boilerplate/blob/master/docs/) for publishing to GitHub Pages and locally serves a transpiled, concatenated, minified bundle.
-* Latest production build is public on GitHub Pages: [gh-pages](https://benmcnulty.github.io/webpack-boilerplate/)
+* Development environment clears [docs folder](/docs/) and serves bundle from memory with live-reloading.
+* Production builds to [docs folder](/docs/) for publishing to GitHub Pages and locally serves a transpiled, concatenated, minified bundle.
+* Default production build is public on GitHub Pages: [gh-pages](https://benmcnulty.github.io/webpack-boilerplate/)
   
 ### NPM Scripts
 #### Install Node Packages
