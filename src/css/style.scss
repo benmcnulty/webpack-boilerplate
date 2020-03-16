@@ -59,3 +59,15 @@ p {
     font-size: 1rem;
     color: $text-color;
 }
+
+h1 {
+    color: rgba(230, 230, 230, 0.8);
+    background-color: transparent;
+    background-image: url('../media/closePup.jpg');
+    background-size: contain;
+    background-position: center;
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 18rem;
+}
