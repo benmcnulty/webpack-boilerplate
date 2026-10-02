@@ -1,9 +1,13 @@
 # webpack-boilerplate
 ## Webpack Boilerplate for HTML, CSS, and JavaScript Projects
 ### Build with Lodash, Sass, and ES6
+
+**Status: historical frontend starter.** This repository demonstrates a Webpack 4/Babel/Sass/HTML-template workflow. It is useful as learning/reference material; its legacy dependencies and current Node/browser compatibility have not been validated in this documentation review. It is not presented as a recommended default stack for a new production project.
+
+The previously advertised GitHub Pages demo returned 404 during the 2026-10-02 portfolio review. No current hosted demo is verified. Use the source and local workflow below.
 ---
   
-Clone this repository for a default modern web development environment.  
+Clone this repository for the historical development environment described below.
 This template includes preconfigured tooling to reduce friction when starting a frontend project.  
 Working understanding of Git, CLI, Node, HTML, CSS, and JavaScript are required.  
 NPM, Webpack, Lodash, Sass, and ES6 are recommended.  
@@ -55,7 +59,7 @@ npm install && npm start
 ### Build Notes
 * Development environment clears [docs](/docs/) folder and serves bundle from memory with live-reloading.
 * Production builds to [docs](/docs/) folder for publishing to GitHub Pages and locally serves a transpiled, concatenated, minified bundle.
-* Default production build is public on GitHub Pages: [Webpack Boilerplate](https://benmcnulty.github.io/webpack-boilerplate/)
+* The former GitHub Pages demo is unavailable. Producing local build files does not publish them.
   
 ### NPM Scripts
 #### Install Node Packages
@@ -77,4 +81,11 @@ npm run lint
 ```sh
 npm run start:prod
 ```
-  
+
+### Verification and limitations
+
+`npm test` is an alias for JSHint linting, not a behavioral or browser test suite. `npm run build:dev` and `npm run build:prod` use the committed Webpack configuration. Builds clean/write the `docs/` output directory; preserve any unrelated edits there before running them. Development/preview commands may open a browser.
+
+The 2026-10-02 documentation review checked these commands against `package.json` and `webpack.config.js`; it did not install the legacy dependencies, run a build or certify compatibility with current Node releases. There is no configured CI workflow. Troubleshooting should state the exact runtime/version and failure rather than imply a verified setup.
+
+Contributions should preserve the original educational examples and keep tooling changes separate from documentation corrections. Licensed under [MIT](LICENSE).
